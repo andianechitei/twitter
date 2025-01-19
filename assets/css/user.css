@@ -1,0 +1,12 @@
+.visible-for-users{
+    display: none;
+}
+.visible-for-guests{
+    display: block;
+}
+.is-logged-in .visible-for-users{
+    display: block;
+}
+.is-logged-in .visible-for-guests{
+    display: none;
+}

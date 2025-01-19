@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/popover.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+            integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js" type="text/javascript"></script>
+    <title>Twitter</title>
+</head>
+<body class="is-logged-in">
+<aside class="sidebar-left">
+    <div class="sidebar-content">
+        <div class="Menu-Logged-In visible-for-users">
+            <div data-active-tab="__homepage" class="navigate-logo">
+                <a href="#">
+                    <img src="assets/images/twitter-icon.svg" alt=""/>
+                </a>
+            </div>
+            <div data-active-tab="__settings" class="navigate">
+                <a href="#">
+                    <img src="assets/images/settings.svg" alt=""/>
+                    <span>Settings</span>
+                </a>
+            </div>
+            <div data-active-tab="__bookmarks" class="navigate">
+                <a href="#">
+                    <img src="assets/images/bookmark.svg" alt=""/>
+                    <span>Bookmarks</span>
+                </a>
+            </div>
+            <div data-active-tab="__profile" class="navigate">
+                <a href="#">
+                    <img src="assets/images/profile.svg" alt=""/>
+                    <span>Profile</span>
+                </a>
+            </div>
+            <div class="profile-info">
+                <div class="action-logout">
+                    <a href="#">
+                        <img src="./assets/images/logout.svg" alt=""/>
+                        <span>Logout</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="Menu-Logged-Out visible-for-guests">
+            <div data-active-tab="__homepage" class="navigate-logo">
+                <a href="#">
+                    <img src="assets/images/twitter-icon.svg" alt=""/>
+                </a>
+            </div>
+            <div data-active-tab="__explore" class="navigate items-list">
+                <a href="#">
+                    <img src="assets/images/hashtag.svg" alt=""/>
+                    <span>Explore</span>
+                </a>
+            </div>
+            <div data-active-tab="__profile" class="navigate">
+                <a href="#">
+                    <img src="assets/images/more-horizontal-two.svg" alt=""/>
+                    <span>More</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</aside>
+<div class="main">
+    <div class="__homepage Homepage-Reels page-reel visible-for-guests">
+        <div class="homepage-header">
+            <div class="header link-homepage">
+                <a href="#">
+                    <span>Explore</span>
+                </a>
+            </div>
+            <div class="empty-space"></div>
+            <div class="settings">
+                <img src="assets/images/settings.svg" alt=""/>
+            </div>
+        </div>
+        <div class="new-posts main-active">
+            <div class="user-post">
+                <div class="user-profile">
+                    <div class="avatar">
+                        <img src="assets/images/avatar.svg" alt=""/>
+                    </div>
+                </div>
+                <div class="user-post-details">
+                    <div class="user-info">
+                        <span class="user-title">Nature is Amazing</span>
+                        <img src="assets/images/verified.svg" alt=""/>
+                        <span class="user-tag">@AMAZINGNATURE · 23h</span>
+                        <div class="empty-space"></div>
+                        <div class="post-settings">
+                            <img src="assets/images/more-horizontal.svg" alt=""/>
+                        </div>
+                    </div>
+                    <p class="description">When sea turtles sleep ... 🐢</p>
+                    <div class="user-post-reel">
+                        <img src="assets/images/post-reel.jpg" alt=""/>
+                    </div>
+                    <div class="interactions">
+                        <span><img src="assets/images/reply.svg" alt=""/>60</span>
+                        <span><img src="assets/images/retweet.svg" alt=""/>2,027</span>
+                        <span><img src="assets/images/like.svg" alt=""/>19k</span>
+                        <span><img src="assets/images/analysis.svg" alt=""/>1.1M</span>
+                        <span><img src="assets/images/share.svg" alt=""/></span>
+                    </div>
+                </div>
+            </div>
+            <div class="user-post">
+                <div class="user-profile">
+                    <div class="avatar">
+                        <img src="assets/images/avatar.svg" alt=""/>
+                    </div>
+                </div>
+                <div class="user-post-details">
+                    <div class="user-info">
+                        <span class="user-title">Nature is Amazing</span>
+                        <img src="assets/images/verified.svg" alt=""/>
+                        <span class="user-tag">@AMAZINGNATURE · 23h</span>
+                        <div class="empty-space"></div>
+                        <img src="assets/images/more-horizontal.svg" alt=""/>
+                    </div>
+                    <p class="description">When sea turtles sleep ... 🐢</p>
+                    <div class="user-post-reel">
+                        <img src="assets/images/post-reel.jpg" alt=""/>
+                    </div>
+                    <div class="interactions">
+                        <span><img src="assets/images/reply.svg" alt=""/>60</span>
+                        <span><img src="assets/images/retweet.svg" alt=""/>2,027</span>
+                        <span><img src="assets/images/like.svg" alt=""/>19k</span>
+                        <span><img src="assets/images/analysis.svg" alt=""/>1.1M</span>
+                        <span><img src="assets/images/share.svg" alt=""/></span>
+                    </div>
+                </div>
+            </div>
+            <div class="user-post">
+                <div class="user-profile">
+                    <div class="avatar">
+                        <img src="assets/images/avatar.svg" alt=""/>
+                    </div>
+                </div>
+                <div class="user-post-details">
+                    <div class="user-info">
+                        <span class="user-title">Nature is Amazing</span>
+                        <img src="assets/images/verified.svg" alt=""/>
+                        <span class="user-tag">@AMAZINGNATURE · 23h</span>
+                        <div class="empty-space"></div>
+                        <img src="assets/images/more-horizontal.svg" alt=""/>
+                    </div>
+                    <p class="description">When sea turtles sleep ... 🐢</p>
+                    <div class="user-post-reel">
+                        <img src="assets/images/post-reel.jpg" alt=""/>
+                    </div>
+                    <div class="interactions">
+                        <span><img src="assets/images/reply.svg" alt=""/>60</span>
+                        <span><img src="assets/images/retweet.svg" alt=""/>2,027</span>
+                        <span><img src="assets/images/like.svg" alt=""/>19k</span>
+                        <span><img src="assets/images/analysis.svg" alt=""/>1.1M</span>
+                        <span><img src="assets/images/share.svg" alt=""/></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-reel User-Profile __profile visible-for-users">
+        <div class="profile-header">
+            <div class="link-homepage">
+                <a href="#">
+                    <img src="./assets/images/backward.svg" alt=""/>
+                </a>
+            </div>
+            <div class="user-header-info">
+                <div class="user-title">
+                    Elon Musk
+                    <img src="./assets/images/verified.svg" alt=""/>
+                </div>
+                <span class="tweets">69K Tweets</span>
+            </div>
+        </div>
+        <div class="profile-page">
+            <div class="profile-display">
+                <div class="profile-background">
+                    <img src="./assets/images/profile-wallpaper.jpg" alt=""/>
+                </div>
+                <div class="profile-pic"></div>
+                <div class="edit-buttons">
+                    <div>
+                        <a href="#">
+                            <img src="./assets/images/more-horizontal-three.svg" alt=""/>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="./assets/images/mail.svg" alt=""/>
+                        </a>
+                    </div>
+                    <div class="edit-btn-text">
+                        <a href="#">Follow</a>
+                    </div>
+                </div>
+                <div class="profile-data">
+                    <div class="username">
+                        <div class="user-title">
+                            <span>Elon Musk</span>
+                            <img src="./assets/images/verified.svg" alt=""/>
+                        </div>
+                        <div class="user-tag">
+                            <span>@elon_musk</span>
+                        </div>
+                    </div>
+                    <div class="profile-description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequatur enim iure neque
+                            nihil perspiciatis rem repellendus reprehenderit, suscipit. Sapiente?</p>
+                    </div>
+                    <div class="profile-details">
+                        <div class="data webpage-link">
+                            <img src="./assets/images/link.svg" alt=""/>
+                            <span>https://www.svgrepo.com/</span>
+                        </div>
+                        <div class="data location">
+                            <img src="./assets/images/map-marker.svg" alt=""/>
+                            <span>Targu Frumos, Romania</span>
+                        </div>
+                        <div class="data date-joined">
+                            <img src="./assets/images/calendar.svg" alt=""/>
+                            <span>Joined May 2023</span>
+                        </div>
+                    </div>
+                    <div class="follow">
+                        <div class="div">
+                            <span class="amount">999</span>
+                            Following
+                        </div>
+                        <div class="div">
+                            <span class="amount">999K</span>
+                            Followers
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-action-btns">
+                <div class="profile-tab tab-active">Tweets</div>
+                <div class="profile-tab">Tweets & replies</div>
+                <div class="profile-tab">Media</div>
+                <div class="profile-tab">Likes</div>
+            </div>
+            <div>
+                <div></div>
+                <div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<aside class="sidebar-right">
+    <div class="sidebar-content">
+        <div class="sign-up">
+            <h3>New to Twitter?</h3>
+            <p>Sign up now to get your own personalized timeline!</p>
+            <a href="#" class="btn">
+                <img src="assets/images/google.svg" alt=""/>
+                Sign up with Google
+            </a>
+            <a href="#" class="btn">
+                <img src="assets/images/apple.svg" alt=""/>
+                Sign up with Apple
+            </a>
+            <a href="#" class="btn">
+                Create account
+            </a>
+            <p>By signing up, you agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>,
+                including <a href="#">Cookie Use</a>.</p>
+        </div>
+        <div class="copyright">
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Accesibility</a>
+            <a href="#">Ads info</a>
+            <a href="#">More...</a>
+            <a href="#">&copy 2023 X Corp.</a>
+        </div>
+        <div class="footer-div visible-for-guests">
+            <div class="text-info">
+                <h2>Don't miss what's happening</h2>
+                <p>People on Twitter are the first to know.</p>
+            </div>
+            <div class="interaction-info-buttons">
+                <a class="login-btn login-action" href="#">Log in</a>
+                <a class="signup-btn signup-action" href="#">Sign up</a>
+            </div>
+        </div>
+    </div>
+</aside>
+
+<div class="popover">
+    <div class="popover-background action-close-popover"></div>
+    <div class="popover-content">
+        <div data-active-label="login__label" class="popover-tab popover-tab--login">
+            <div class="twitter-logo">
+                <img src="./assets/images/twitter-icon.svg" alt=""/>
+            </div>
+            <h1>Sign in to Twitter</h1>
+            <div class="signin-buttons">
+                <a class="button" href="#">
+                    <img src="./assets/images/google.svg" alt=""/>
+                    Sign in with Google
+                </a>
+                <a class="button" href="#">
+                    <img src="./assets/images/apple.svg" alt=""/>
+                    Sign in with Apple
+                </a>
+            </div>
+            <div class="space-between">
+                <div class="grey-line"></div>
+                or
+                <div class="grey-line"></div>
+            </div>
+            <div class="data-insert">
+                <input type="text" placeholder="Phone, email, or username"/>
+            </div>
+            <div class="popover-buttons">
+                <div class="next-btn">
+                    <a class="button action-login-user" href="#">Next</a>
+                </div>
+                <div class="forgot-pass-btn">
+                    <a class="button forgotpass-action" href="#">Forgot password?</a>
+                </div>
+            </div>
+            <p>Don't have an account? <a class="signup-text signup-action" href="#">Sign up</a></p>
+            <div class="close-window action-close-popover">
+                <img src="./assets/images/close-button.svg" alt=""/>
+            </div>
+        </div>
+        <div data-active-label="register__label" class="popover-tab popover-tab--register">
+            <div class="twitter-logo">
+                <img src="./assets/images/twitter-icon.svg" alt=""/>
+            </div>
+            <h1>Join Twitter today</h1>
+            <div class="signin-buttons">
+                <a class="button" href="#">
+                    <img src="./assets/images/google.svg" alt=""/>
+                    Sign in with Google
+                </a>
+                <a class="button" href="#">
+                    <img src="./assets/images/apple.svg" alt=""/>
+                    Sign in with Apple
+                </a>
+            </div>
+            <div class="space-between">
+                <div class="grey-line"></div>
+                or
+                <div class="grey-line"></div>
+            </div>
+            <p>Have an account already? <a class="signup-text login-action" href="#">Log in</a></p>
+            <div class="close-window action-close-popover">
+                <img src="./assets/images/close-button.svg" alt=""/>
+            </div>
+        </div>
+        <div data-active-label="forgotpass__label" class="popover-tab popover-tab--forgotpass">
+            <div class="twitter-logo">
+                <img src="./assets/images/twitter-icon.svg" alt=""/>
+            </div>
+            <div class="details">
+                <h1>Find your Twitter account</h1>
+                <p>Enter email, phone number, or username associated with your account to change your password.</p>
+            </div>
+            <div class="recover-account-input">
+                <input type="text" placeholder="Email, phone number, or username"/>
+            </div>
+            <div class="close-window action-close-popover">
+                <img src="./assets/images/close-button.svg" alt=""/>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
